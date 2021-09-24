@@ -34,7 +34,7 @@ import EventService from '@/services/EventService.js'
 import UploadImages from 'vue-upload-drop-images'
 export default {
   inject: ['GStore'],
-  components: {
+  components: { 
     UploadImages
   },
   data() {
